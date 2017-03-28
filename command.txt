@@ -1,0 +1,4 @@
+--------------------------
+centos выдираем чаилды апача.
+strace -f -p pgrep -of apache -p $(pgrep -d ' -p' -P pgrep -of apache) -o apache.log
+----------------------------
